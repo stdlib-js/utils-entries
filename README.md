@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.objectEntries;
+})();
 })();
 </script>
 ```
@@ -99,6 +101,7 @@ var entries = objectEntries( obj );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-entries@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var obj = {
     'beep': 'boop',
@@ -111,6 +114,7 @@ var obj = {
 var entries = objectEntries( obj );
 // e.g., returns [ ['beep', 'boop'], ['a', {'b':'c'}], ['foo', [ 'bar' ]] ]
 
+})();
 })();
 </script>
 </body>
@@ -211,13 +215,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/entries-in]: https://github.com/stdlib-js/utils-entries-in/tree/umd
+[@stdlib/utils/entries-in]: https://github.com/stdlib-js/utils-entries-in/tree/umd/tree/umd
 
-[@stdlib/utils/from-entries]: https://github.com/stdlib-js/utils-from-entries/tree/umd
+[@stdlib/utils/from-entries]: https://github.com/stdlib-js/utils-from-entries/tree/umd/tree/umd
 
-[@stdlib/utils/keys]: https://github.com/stdlib-js/utils-keys/tree/umd
+[@stdlib/utils/keys]: https://github.com/stdlib-js/utils-keys/tree/umd/tree/umd
 
-[@stdlib/utils/values]: https://github.com/stdlib-js/utils-values/tree/umd
+[@stdlib/utils/values]: https://github.com/stdlib-js/utils-values/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
