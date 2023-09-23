@@ -18,20 +18,47 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # Object Entries
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Return an array of an object's own enumerable property key-value pairs.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-entries
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import objectEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-entries@deno/mod.js';
+var objectEntries = require( '@stdlib/utils-entries' );
 ```
 
 #### objectEntries( obj )
@@ -69,7 +96,7 @@ var entries = objectEntries( obj );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-entries@deno/mod.js';
+var objectEntries = require( '@stdlib/utils-entries' );
 
 var obj = {
     'beep': 'boop',
@@ -113,7 +140,7 @@ var entries = objectEntries( obj );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -143,8 +170,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/utils-entries.svg
 [npm-url]: https://npmjs.org/package/@stdlib/utils-entries
 
-[test-image]: https://github.com/stdlib-js/utils-entries/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/utils-entries/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/utils-entries/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/utils-entries/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-entries/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-entries?branch=main
@@ -177,13 +204,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/entries-in]: https://github.com/stdlib-js/utils-entries-in/tree/deno
+[@stdlib/utils/entries-in]: https://github.com/stdlib-js/utils-entries-in
 
-[@stdlib/utils/from-entries]: https://github.com/stdlib-js/utils-from-entries/tree/deno
+[@stdlib/utils/from-entries]: https://github.com/stdlib-js/utils-from-entries
 
-[@stdlib/utils/keys]: https://github.com/stdlib-js/utils-keys/tree/deno
+[@stdlib/utils/keys]: https://github.com/stdlib-js/utils-keys
 
-[@stdlib/utils/values]: https://github.com/stdlib-js/utils-values/tree/deno
+[@stdlib/utils/values]: https://github.com/stdlib-js/utils-values
 
 <!-- </related-links> -->
 
